@@ -59,7 +59,7 @@ const Welcome = () => {
             {/* Logo a la izquierda con más margen */}
             <div className="flex-shrink-0 pl-8 ml-4">
               <Image 
-                src="public/img/logo-2.webp" 
+                src="/img/logo-2.webp" 
                 alt="Betondecken Logo" 
                 width={60}
                 className='h-25 w-25'
@@ -192,7 +192,7 @@ const Welcome = () => {
                   <div className="flex items-center">
                     <div className="w-[44px] h-[44px]">
                       <Image 
-                        src="public/img/iso.png" 
+                        src="/img/iso.png" 
                         alt="ISO 27001" 
                       />
                     </div>
